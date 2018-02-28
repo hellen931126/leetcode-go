@@ -1,3 +1,5 @@
+package main
+
 import "bytes"
 
 func addBinary(a string, b string) string {
