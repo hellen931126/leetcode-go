@@ -1,3 +1,5 @@
+package main
+
 func pivotIndex(nums []int) int {
 	total := sumNums(len(nums), nums)
 	for i := 0; i < len(nums); i++ {
