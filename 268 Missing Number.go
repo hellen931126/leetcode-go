@@ -1,3 +1,5 @@
+package main
+
 func missingNumber(nums []int) int {
 
 	miss := 0
