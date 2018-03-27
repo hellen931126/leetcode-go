@@ -2,7 +2,7 @@ var res []string
 
 func letterCombinations(digits string) []string {
 	buttons := []string{" ", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
-	res := []string{}
+	res = []string{}
 	if len(digits) > 0 {
 		combine(buttons, "", digits, 0)
 	}
