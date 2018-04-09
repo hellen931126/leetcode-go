@@ -1,4 +1,4 @@
-func maxProfitII(prices []int) int {
+func maxProfit(prices []int) int {
 	if prices == nil || len(prices) < 2 {
 		return 0
 	}
